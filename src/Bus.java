@@ -9,7 +9,7 @@ public class Bus extends Thread
 			Thread.sleep(1000);
 		} catch (InterruptedException e) 
 		{
-			e.printStackTrace();
+			e.printStackTrace();//print exception
 		}
 		System.out.println(Thread.currentThread().getName());
 	}
